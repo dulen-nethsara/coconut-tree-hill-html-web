@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coconut Tree Hill | Mirissa, Sri Lanka</title>
+    <style>
+        /* --- CSS STYLING --- */
+        
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcfbf7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('https://srilanka800.com/wp-content/uploads/2025/10/Coconut-Tree-Hill.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Main Content Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            header h1 { font-size: 2.5rem; }
+            header p { font-size: 1.2rem; }
+        }
+
+        /* About Section */
+        .about-section h2 {
+            color: #1b4d3e;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .about-section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: #e2b13c;
+            margin-top: 8px;
+            border-radius: 2px;
+        }
+
+        .about-section p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Info Sidebar Cards */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 5px solid #1b4d3e;
+        }
+
+        .card h3 {
+            color: #1b4d3e;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .card ul {
+            list-style: none;
+        }
+
+        .card ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        /* Gallery Section */
+        .gallery-title {
+            color: #1b4d3e;
+            font-size: 2rem;
+            margin: 40px 0 20px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1b4d3e;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        footer p a {
+            color: #e2b13c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Header -->
+    <header>
+        <h1>Coconut Tree Hill</h1>
+        <p>Mirissa, Sri Lanka</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        
+        <div class="grid">
+            
+            <!-- Left Column: About -->
+            <div class="about-section">
+                <h2>An Island Paradise Icon</h2>
+                <p>Coconut Tree Hill is arguably one of the most Instagrammed spots in Sri Lanka, and for good reason. Located in the coastal town of Mirissa, this unique dome-shaped headland is beautifully populated by towering, slender coconut palms that stretch out towards the Indian Ocean.</p>
+                
+                <p>The contrast between the reddish-brown soil, the vibrant green fronds of the palm trees, and the deep turquoise of the sea creates a breathtaking palette that captures the true essence of a tropical getaway.</p>
+                
+                <p>It takes about a 10-15 minute walk from the main Mirissa beach to reach this cliff. It's the perfect spot to relax, listen to the crashing waves, and watch an unforgettable Sri Lankan sunset filtering through the palm trees.</p>
+            </div>
+
+            <!-- Right Column: Quick Info Sidebar -->
+            <div class="sidebar">
+                <div class="card">
+                    <h3>Traveler Tips</h3>
+                    <ul>
+                        <li>🌅 <strong>Best Time:</strong> Sunrise or Sunset for the best lighting and cooler temperatures.</li>
+                        <li>🎟️ <strong>Entrance:</strong> Entirely free to the public!</li>
+                        <li>👟 <strong>Footwear:</strong> Wear sandals or shoes with a decent grip, as the red clay path can get slippery.</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="border-left-color: #e2b13c;">
+                    <h3>How to Get There</h3>
+                    <p style="font-size: 0.95rem; color: #555;">You can easily walk along the beach from Mirissa's main bay or take a quick Tuk-Tuk ride from any nearby hotel to the access path. </p>
+                </div>
+            </div>
+
+        </div> <!-- End Grid -->
+
+        <!-- Image Gallery -->
+        <h2 class="gallery-title">Visual Splendor</h2>
+        <div class="gallery">
+            <!-- Using high quality tropical/palm placeholders from Unsplash -->
+            <img src="https://i.pinimg.com/736x/75/e3/b1/75e3b19d1d178334c4818ede6e1fc7ec.jpg" alt="Beautiful tropical beach view">
+            <img src="https://srilanka800.com/wp-content/uploads/2025/10/Coconut-Tree-Hill-1-800x600.jpg" alt="Sunset over palm trees">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/17/85/65/b5/coconut-tree-hill-mirissa.jpg" alt="Beautiful ocean side view">
+        </div>
+
+    </div> <!-- End Container -->
+
+    <!-- Footer -->
+    <footer>
+        <p>Explore 2026 dulen nethsara.</p>
+    </footer>
+
+</body>
+</html>
